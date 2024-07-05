@@ -12,8 +12,8 @@ def cantidad_filmaciones_mes(mes: str):
     df = pd.read_csv("Movies_dataset(ETL)_Final.csv")
     
     # Creamos un dicionario con meses para que caundo el usuario ingrese el mes sepamos su valor numerico
-    diccionario = {"Enero": 1,"Febrero": 2,"Marzo": 3,"Abril": 4,"Mayo" :5,"Junio" :6,"Julio" :7,"Agosto" :8,"Septiembre" :9,"Octubre" :10,"Noviemre" :11,"Diciembre" :12,
-                   "enero": 1,"febrero": 2,"marzo": 3,"abril": 4,"mayo" :5,"junio" :6,"julio" :7,"agosto" :8,"septiembre" :9,"octubre" :10,"noviemre" :11,"diciembre" :12
+    diccionario = {"Enero": 1,"Febrero": 2,"Marzo": 3,"Abril": 4,"Mayo" :5,"Junio" :6,"Julio" :7,"Agosto" :8,"Septiembre" :9,"Octubre" :10,"Noviembre" :11,"Diciembre" :12,
+                   "enero": 1,"febrero": 2,"marzo": 3,"abril": 4,"mayo" :5,"junio" :6,"julio" :7,"agosto" :8,"septiembre" :9,"octubre" :10,"noviembre" :11,"diciembre" :12
                    }
     
     # Revisamos si el mes ingresado es correcto
@@ -28,7 +28,7 @@ def cantidad_filmaciones_mes(mes: str):
     
     # Si el mes es incorrecto retornamos el siguiente mansaje
     else:
-        return "Ingrese un mes valido: [Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviemre, Diciembre]"
+        return "Ingrese un mes valido: [Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviemre, Diciembre, enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre"
     
 @app.get("/Cantidad peliculas Dia")
 def cantidad_filmaciones_dia(Dia: str):
@@ -129,7 +129,7 @@ def get_actor(nombre_actor):
             total += float(filtro["return"])
 
         # Retorno el nombre del actor, la cantidad de paliculas (len(lista_peliculas)), el total del retorno y su promedio
-        return f"El actor {nombre_actor} ha participado en {len(lista_peliculas)} peliculas, el mismo a conseguido un retorno de {total} con un promedio de {total/int(len(lista_peliculas))}"
+        return f"El actor {nombre_actor} ha participado en {len(lista_peliculas)} peliculas, el mismo ha conseguido un retorno de {total} con un promedio de {total/int(len(lista_peliculas))}"
 
     # Si no se encuentra
     except:
