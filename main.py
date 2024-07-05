@@ -166,6 +166,3 @@ def get_director(nombre_director):
     
 
     return f"El actor {nombre_director} ha participado en {len(lista_peliculas)} peliculas, el mismo a conseguido un retorno de {total}", df_filtrado[["title","release_date","return","budget","revenue"]]
-
-
-
