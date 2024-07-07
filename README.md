@@ -58,6 +58,6 @@ En la API creada se le incluyeron siete funciones:
 
 - La sexta llamada **get_director**, se ingresa el nombre del director y se devuelve su nombre, el retorno del mismo y las película en las que participó, a demás de los datos de cada una.
 
-- La septima llamada **recomendacion**, se ingresa el nombre de una película y te recomienda las similares en una lista de 5 valores.
+- La séptima llamada **recomendacion**, se ingresa el nombre de una película y te recomienda las similares en una lista de 5 valores.
 
 Para finalizar, la API se cargó en render en modo público. Cabe aclarar que para la función de recomendación se creó un dataset especial con solo 5000 registros y las tres columnas necesarias (título, votos y género) debido a que render brinda una capacidad de procesamiento limitada muy chica para modelos de Machine Learning. 
