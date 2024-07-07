@@ -44,6 +44,7 @@ Para saver un poco mas de los datos y su comportamiento se procedio a crear un E
 
 ## Fast API
 [![Captura-de-pantalla-37.png](https://i.postimg.cc/PrvbhQNK/Captura-de-pantalla-37.png)](https://postimg.cc/Vd10WMqb)
+
 En la API creada se le incluyeron ciete funciones:
 - La primera llamada **cantidad_filmaciones_mes**, se le entrega un mes en español y devuelve la cantidad de peliculas echas en ese mes.
 
