@@ -35,12 +35,12 @@ Se recibieron dos datasets Movies y Credits, a estos se le aplicaron las siguien
 
 Para saver un poco mas de los datos y su comportamiento se procedio a crear un EDA, en el se analizo los dos dataset:
 
-	Se buscaron nulos en las columnas.
-	Se buscaron valores faltantes.
-	Se chequeo filas duplicadas.
-	Se reviso el tipo de dato de cada columna.
-	Se realizaron graficos con columnas como cantidad de votos, popularidad y retorno.
-	Por ultimo se creo una nube de palabras para ver la frecuencia de las mismas.
+	1.Se buscaron nulos en las columnas.
+	2.Se buscaron valores faltantes.
+	3.Se chequeo filas duplicadas.
+	4.Se reviso el tipo de dato de cada columna.
+	5.Se realizaron graficos con columnas como cantidad de votos, popularidad y retorno.
+	6.Por ultimo se creo una nube de palabras para ver la frecuencia de las mismas.
 
 ## Fast API
 [![Captura-de-pantalla-37.png](https://i.postimg.cc/PrvbhQNK/Captura-de-pantalla-37.png)](https://postimg.cc/Vd10WMqb)
