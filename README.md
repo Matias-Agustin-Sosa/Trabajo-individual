@@ -52,7 +52,7 @@ En la API creada se le incluyeron siete funciones:
 
 - La tercera llamda **score_titulo**, se ingresa un título de película y devuelve el mismo con su año de estreno y su popularidad.
 
-- La cuarta llamada **votos_titulo**, se ingresa un título de película y devuelve el mismo con el año de estreno, la cantidad de votos y su promedio. En caso de que los votos sean menores a 2000, devuelve un mensaje que dice que la cantidad de votos es insuficioente.
+- La cuarta llamada **votos_titulo**, se ingresa un título de película y devuelve el mismo con el año de estreno, la cantidad de votos y su promedio. En caso de que los votos sean menores a 2000, devuelve un mensaje que dice que la cantidad de votos es insuficiente.
 
 - La quinta llamada **get_actor**, se ingresa el nombre del actor y se devuelve su nombre, la cantidad de película en las que participó, su retorno y un promedio del retorno.
 
