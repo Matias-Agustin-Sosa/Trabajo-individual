@@ -62,4 +62,4 @@ En la API creada se le incluyeron siete funciones:
 
 Para finalizar, la API se cargó en render en modo público. Cabe aclarar que para la función de recomendación se creó un dataset especial con solo 5000 registros y las tres columnas necesarias (título, votos y género) debido a que render brinda una capacidad de procesamiento limitada muy chica para modelos de Machine Learning. 
 
-**Link a mi API:**[FastAPI](https://fast-api-iafs.onrender.com/docs#/)
+**Link a mi API:** [FastAPI](https://fast-api-iafs.onrender.com/docs#/)
